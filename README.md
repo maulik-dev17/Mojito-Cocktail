@@ -1,30 +1,52 @@
-# 🍸 Mojito Cocktail Website
+# 🍸 Velvet Pour — Cinematic Mojito Landing Page
 
-**Live Demo:** https://mojito-cocktail-eight.vercel.app  
-**Source Code:** https://github.com/Maulik-Frontend-Dev/Mojito-Cocktail
+**Live Demo:** [mojito-cocktail-eight.vercel.app](https://mojito-cocktail-eight.vercel.app)
 
----
+![Velvet Pour preview](./preview.png)
 
-## 🚀 Project Overview
+## Overview
 
-The **Mojito Cocktail Website** is a front-end project that demonstrates interactive animations, clean UI design, and smooth user experiences using modern front-end tools. This project reflects my **first exploration of GSAP animations** combined with responsive design and component-based structure in React. :contentReference[oaicite:1]{index=1}
+My first deliberate exploration of **GSAP** inside a **React** codebase — built to
+move past static UI and into motion-driven storytelling. The goal wasn't "does it
+work," it was "does the scroll/interaction *feel* directed, like a small
+cinematic sequence, instead of a page with animations bolted on."
 
----
+This project marks the starting point of a broader direction I'm building toward:
+**Cinematic Experience Engineering** — websites that borrow pacing, camera
+movement, and atmosphere from film, not just standard UI patterns.
 
-## 💻 Technologies Used
+## Tech Stack
 
-- **React.js** – Modular component architecture  
-- **Tailwind CSS** – Utility-first styling for consistent design  
-- **GSAP (GreenSock)** – High-performance animations  
-- **Responsive Design** – Mobile, tablet, and desktop support :contentReference[oaicite:2]{index=2}
+- **React.js** — component architecture
+- **Tailwind CSS** — utility-first styling
+- **GSAP (GreenSock)** — animation timelines and scroll-triggered motion
+- Fully responsive across mobile, tablet, and desktop
 
----
+## What I focused on
 
-## ✨ Features
+- Sequencing animations as a **timeline**, not isolated one-off effects
+- Getting comfortable with GSAP's easing and stagger to make motion feel
+  intentional rather than decorative
+- Keeping the React component structure clean enough that animation logic
+  doesn't leak into every component
 
-- 🌟 Smooth GSAP-powered animations  
-- 📱 Fully responsive layout  
-- 💡 Modular React components  
-- ⚡ Optimized for performance and visuals  
-- 🎯 Visually engaging interactive transitions :contentReference[oaicite:3]{index=3}
+## Honest scope note
 
+This is an early-stage exploration, not a production client project — a
+deliberate first step in the GSAP/motion-design track of my learning path,
+not a claim of mastery. Later projects (in progress) push further into
+Three.js and scroll-driven narrative architecture.
+
+## Run locally
+
+```bash
+git clone https://github.com/maulik-dev17/Mojito-Cocktail.git
+cd Mojito-Cocktail/Mojito-Gsap
+npm install
+npm run dev
+```
+
+## Connect
+
+- LinkedIn: [linkedin.com/in/maulik-prajapati-171905amd](https://www.linkedin.com/in/maulik-prajapati-171905amd/)
+- GitHub: [@maulik-dev17](https://github.com/maulik-dev17)
